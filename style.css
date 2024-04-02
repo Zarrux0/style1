@@ -1,0 +1,26 @@
+.container{
+    width: 700px;
+    height: 500px;
+    background-color: rgb(216, 127, 18);
+    gap: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 500px ;
+    justify-content: center;
+}
+.box1{
+    margin: 60px 0px 0px 0px  ;
+    width: 150px;
+    height: 100px;
+    background-color: orange;
+    border: 2px  red solid;
+    font-size: 30px;
+    
+}
+.box2{
+    height: 300px;
+}
+h1{
+    position: relative;
+    top: 70px ;
+}
